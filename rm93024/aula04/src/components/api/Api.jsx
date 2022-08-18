@@ -1,4 +1,5 @@
 import React from "react"
+import { useReducer } from "react"
 import {useEffect, useState} from "react"
 
 export default function Api() {
@@ -15,6 +16,13 @@ export default function Api() {
         setRepositorios(data)    
     }
 
+    //Exercicio: 
+    
+    // 1 - Recuperar o avatar do usuário
+    // 2 - Trocar a Key do map pelo id do user
+    // 3 - Mudar a estrutura dentro da li para uma estrutura semântica com figure/img/figcap
+
+    
     // useEffect(() => {
     //     console.log("Renderizou o componente!")                     
     // },[])
