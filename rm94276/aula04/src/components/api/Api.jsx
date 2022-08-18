@@ -5,6 +5,16 @@ export default function Api(){
     
     const[repositorios, setRespositorios] = useState([])
     
+
+    useEffect(()=>{
+        carregaRepos()
+    }, [])
+
+    const carregaRepos = async() =>{
+        const response = await fetch("https://api.github.com/users")
+        const data = await response.json()
+        setRespositorios(data)
+    }
     //UseEffect executa uma unica vez no carregamentp do componenete
     //did.mont did.uptade
     // useEffect(()=>{
@@ -16,10 +26,21 @@ export default function Api(){
     //     console.log("Renderizou o objeto")
     // },[repositorios])
 
+
+    // Exercicio:
+    //1- Recuperar o Avatar do usuário
+    // 2- Trocara a Key do map pelo id do user 
+    // 3-Mudar a estrutura dentro da li para uma estrutura semântica com figure/img/figure
+
     return(
         <>
             <h2>Lista de usuários do GitHub:</h2>
-            <button onClick={()=>setRespositorios(['Henrique', 'Rodrigo']) }>Alterar</button>
+            {/* <button onClick={()=>setRespositorios(['Henrique', 'Rodrigo']) }>Alterar</button> */}
+            <ul>
+                {repositorios.map((obj, i) =>
+                    <li key={i}>{obj.login}</li>
+                )}
+            </ul>
         </>
     )
 }
