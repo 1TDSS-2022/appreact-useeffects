@@ -31,7 +31,7 @@ export default function Api(){
     )
 }
 
-Exercicio:
-1 - Recuperar o avatar do usuario 
-2 - Trocar a key do map pelo id do user 
-3 - Mudar a estrutura dentro da li para uma estrutura semantica com figure/img/
+// Exercicio:
+// 1 - Recuperar o avatar do usuario 
+// 2 - Trocar a key do map pelo id do user 
+// 3 - Mudar a estrutura dentro da li para uma estrutura semantica com figure/img/
