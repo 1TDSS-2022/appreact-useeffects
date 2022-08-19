@@ -36,7 +36,7 @@ export default function Api(){
     //Exercicio
     //1 - Recuperar o avatar do usuário
     //2 - Trocar a Key do map pelo id do user
-    //3 - Mudar a estrutura dentro da li para uma estrutura semântica com figure/img/figure
+    //3 - Mudar a estrutura dentro da li para uma estrutura semântica com figure/img/figcaption
 
     return (
         <div>
