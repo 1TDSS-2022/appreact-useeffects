@@ -6,24 +6,24 @@ export default function Api(){
 
     const [repositorios, setRepositorios]= useState([])
 
-    useEffect(async () => {
-        carregaRepos
+    useEffect(() => {
+        carregaRepos()
     }, [])
 
-    const carregaRepos = () => {
-        const response = fetch("https://api.github.com/users")
-        const data = response.json()
+    const carregaRepos = async() => {
+        const response = await fetch("https://api.github.com/users")
+        const data = await response.json()
 
         setRepositorios(data)
     }
 
     //o useEffect executa uma única vez. no carregamento do comp
-    useEffect(()=>{
-        console.log("Renderizou!")
-    },[])
-    useEffect(()=>{
-        console.log("Renderizou o objeto!")
-    },[repositorios])
+    //useEffect(()=>{
+    //    console.log("Renderizou!")
+    //},[])
+    //useEffect(()=>{
+    //    console.log("Renderizou o objeto!")
+    //,[repositorios])
 
     return(
         <div>
