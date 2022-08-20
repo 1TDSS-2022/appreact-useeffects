@@ -15,13 +15,6 @@ export default function Api() {
         setRepositorios(data)    
     }
 
-    //Exercicio: 
-    
-    // 1 - Recuperar o avatar do usuário
-    // 2 - Trocar a Key do map pelo id do user
-    // 3 - Mudar a estrutura dentro da li para uma estrutura semântica com figure/img/figcaption
-
-
     // useEffect(() => {
     //     console.log("Renderizou o componente!")                     
     // },[])
@@ -42,3 +35,9 @@ export default function Api() {
         </div>
     )
 }
+
+    //Exercicio: 
+    
+    // 1 - Recuperar o avatar do usuário
+    // 2 - Trocar a Key do map pelo id do user
+    // 3 - Mudar a estrutura dentro da li para uma estrutura semântica com figure/img/figcaption
