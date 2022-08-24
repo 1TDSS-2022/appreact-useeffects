@@ -1,12 +1,22 @@
 import React from 'react'
-import Api from './components/api/Api'
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import home from './components/home/home'
+import Produtos from './components/produtos/produtos'
+import Servicos from './components/servicos/servicos'
+import Menu from './components/menu/menu'
+
+
 
 export default function App(){
     return(
-        <div>
-            <h1>Estudo sobre Use effects</h1>
-            <Api/>
-        </div>
+        <BrowserRouter>
+            <Menu/>
+            <Routes>
+                <Route path = "/" element = {home}/>
+                <Route path = "/produtos" element = {<Produtos/>}/>
+                <Route path = "/servicos" element = {<Servicos/>}/>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
