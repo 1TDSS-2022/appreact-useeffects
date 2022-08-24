@@ -1,0 +1,17 @@
+import React from "react";
+
+export default function Produtos(){
+    const produtos = {
+        backgroundColor: '##bfb',
+        height: '85vh',
+        textAlign: 'center',
+        color: '#7c7'
+    }
+
+    return(
+        <div style={servicos}>
+            <h1>Página de serviços</h1>
+            <p>Exemplo da página de serviços.</p>
+        </div>
+    )
+}

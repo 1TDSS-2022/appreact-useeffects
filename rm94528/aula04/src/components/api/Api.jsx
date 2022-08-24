@@ -3,6 +3,23 @@ import { useEffect, useState } from "react";
 
 export default function Api(){
 
+    const objeto = [
+        {
+            nome: "Nanne",
+            id: 121
+        },
+        {
+            nome: "Ruan",
+            id: 94528
+        }
+    ]
+ 
+
+    const objetoJSON = {
+        "nome" : "Nanne",
+        "id": 121
+    }
+
     const [repositorios, setRepositorios] = useState([])
 
     useEffect(()=>{
@@ -22,9 +39,14 @@ export default function Api(){
         <div>
             <h2>Lista de usuários do GutHUB</h2>
             {/* <button onClick={()=> setRepositorios(["Alê", "Ronqui"])}>ALTERAR</button> */}
-            <ul>
-                {repositorios.map((obj, i)=>
-                <li key={i}>{obj.login}</li>)}
+            <ul style={{listStyle: 'nome'}}>
+                {repositorios.map((obj)=>
+                <li key={obj.id}>
+                    <figure>
+                        <img src={obj.avatar_url} alt="Foto de avatar" style={{width: '200px'}}/>
+                        <figcaption><a href={obj.html_url} target='_blank'>{obj.login}</a></figcaption>
+                    </figure>
+                    {obj.login}</li>)}
             </ul>
         </div>
     )
