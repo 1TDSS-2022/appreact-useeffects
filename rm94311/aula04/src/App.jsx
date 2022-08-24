@@ -1,12 +1,27 @@
 import React from "react"
 import Api from "./components/api/Api"
-import Home from "./components/home/Home"
 
 export default function App(){
+    
+    const objeto = [
+        {
+            nome: "Dougra Weberx",
+            id: 196,
+        },
+        {
+            nome: "Manelas Ésim",
+            id:157,
+
+        }
+
+
+    ]
+    
+    
     return(
         <div>
             <h1>ESTUDO SOBRE USE-EFFECTS</h1>
-            <Home/>
+            <Api/>
         </div>
     )
 }
