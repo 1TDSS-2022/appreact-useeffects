@@ -4,22 +4,22 @@ import { useState, useEffect } from "react";
 
 export default function Api(){
 
-    const objeto = [
-    {
-        nome : "Nanne",
-        id : 121
-    }
-    ,
-    {
-        nome : "Julia",
-        id : 122
-    }
-    ,
-    {
-        nome : "Roberto",
-        id : 123
-    }
-]
+//    const objeto = [
+//    {
+//        nome : "Nanne",
+//       id : 121
+//    }
+//   ,
+//    {
+//        nome : "Julia",
+//        id : 122
+//    }
+//    ,
+//    {
+//        nome : "Roberto",
+//       id : 123
+//    }
+//]
 
 
 
