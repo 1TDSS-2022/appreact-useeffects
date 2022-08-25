@@ -1,60 +1,43 @@
-
-import Slider from "react-slick";
 import { useState } from "react";
 import { useEffect } from "react";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import { Carousel } from "react-responsive-carousel";
 
- const Home = () => {
+const Home = () => {
+  const [imagens, setImagens] = useState([]);
 
-    const[imagens, setImagens] = useState([])
+  useEffect(() => {
+    carregaImg();
+  }, []);
 
-    useEffect( () => {
-        carregaImg()
-    }, [])
+  const carregaImg = async () => {
+    const response = await fetch("./imagens.json");
+    const data = await response.json();
 
-    
-    
-    const carregaImg = async() => {
-        const response =  await fetch('./imagens.json') 
-        const data = await response.json();
-        
-        setImagens(data)
-    }
-    
-    console.log(imagens)
-
-    const settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
-
-    }
-    return (
-        <div>
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-
-            
-           {imagens.map((i) => 
-            <div>
-                <img src={i.image} alt="" />
-            </div>
-           )}
-        
-     
-        </Slider>
-      </div>
-     
-    );
+    setImagens(data);
+  };
   
-    
-    }
+  imagens.map(obj => {
+    console.log(obj)
+  })
+  
+  
+  return (
+    <div>
+      <Carousel autoPlay infiniteLoop autoFocus showThumbs={false} dynamicHeight="40%">
+        {imagens.map((obj) => {
+          return (
+            <div>
+              <img
+                alt=""
+                src={obj.image}
+              />
+              <p className="legend">{obj.legenda}</p>
+            </div>
+          );
+        })}
+      </Carousel>
+    </div>
+  );
+};
 
-    export default Home;
-
+export default Home;
