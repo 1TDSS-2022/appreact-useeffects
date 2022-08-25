@@ -1,11 +1,10 @@
 import React from "react"
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // import Api from "./components/api/Api"
-import Home from './components/home/Home'
-import Produtos from './components/produtos/Produtos'
-import Servicos from './components/servicos/Servicos'
 import Menu from './components/menu/Menu'
+
+// Rotas Nav
+import MainRoutes from "./routes/MainRoutes"
 
 
 // export default function App(){
@@ -20,14 +19,10 @@ import Menu from './components/menu/Menu'
 export default function App(){
 
     return (
-        <BrowserRouter>
+        <>
             <Menu/>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/produtos" element={<Produtos/>}/>
-                <Route path="/servicos" element={<Servicos/>}/>
-            </Routes>
-        </BrowserRouter>
+            <MainRoutes/>
+        </>
     )
 }
 

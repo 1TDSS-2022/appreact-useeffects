@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+
+// Ao clicar no link leva a página ao diretorio especificado (tem que ser criado pelo routes)
 export default function Menu() {
 
     return(
