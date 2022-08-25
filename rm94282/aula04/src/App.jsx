@@ -1,13 +1,14 @@
 import React from "react";
-import Api from "./components/api/Api";
+import Menu from "./components/menu/Menu";
+import MainRoutes from "./routes/MainRoutes";
 
 const App = () => {
     
     
     return(
         <div>
-            <h1>Estudo sobre use-effect</h1>
-            <Api/>
+            <Menu/>
+            <MainRoutes/>
         </div>
     )
 }
