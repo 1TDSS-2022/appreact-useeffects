@@ -1,21 +1,20 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 
-export default function App(){
-
-    const objeto = [
-    {   nome: "Wallison",
-        id : 21
-    },
-    {
-        nome: "Duda",
-        id : 17
-    },
-    {
-        nome: "Jesus",
-        id: 33
-    }
-    ]
+export default function Api(){
+    // const objeto = [
+    // {   nome: "Wallison",
+    //     id : 21
+    // },
+    // {
+    //     nome: "Duda",
+    //     id : 17
+    // },
+    // {
+    //     nome: "Jesus",
+    //     id: 33
+    // }
+    // ]
 
 
 
