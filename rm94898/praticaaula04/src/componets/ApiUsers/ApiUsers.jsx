@@ -14,7 +14,8 @@ const ApiUsers = () => {
 
         const response = await fetch("https://api.github.com/users");
         const data = await response.json();
-
+        
+    
 
         setUsuarios(data.map((item) => {
             return (
@@ -24,11 +25,14 @@ const ApiUsers = () => {
                     avatar: item.avatar_url,
                     perfil: item.html_url,
                     seguidores: item.followers_url.length,
+                    
                 }
-            )
+                )
+               
         }
         ))
     }
+
 
     useEffect(() => {
         loadingUsuarios()
@@ -44,6 +48,7 @@ const ApiUsers = () => {
                         return (
 
                             <div key={usuario.id} className="container">
+                                <h1 ></h1>
                                 <a className="ancor" target="_blank" href={usuario.perfil}>
                                     <div>
                                         <figure>

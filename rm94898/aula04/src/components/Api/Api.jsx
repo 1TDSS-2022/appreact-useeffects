@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 export default function Api() {
 
+
     const[repositorios, setResponsitorio] = useState([])
 
 useEffect( () => {
@@ -23,9 +24,15 @@ const carregaRepos = async() => {
     return(
         <div>
         <h2>Lista de usuarios do GITHUB</h2>
-        <ul>
-            {repositorios.map((obj, i) => 
-                <li key={i}>{obj.login}</li>
+        <ul style={ {display: 'flex', flexWrap: 'wrap'}}>
+            {repositorios.map((obj) => 
+                <li style={{listStyle: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
+                key={obj.id}>
+                    <figure>
+                        <img style={{width: '100px', borderRadius: '30%', border: '1px solid'}} src={obj.avatar_url} />
+                        <figcaption><a href={obj.html_url} target='_blank'>{obj.login}</a></figcaption>
+                    </figure>
+                </li>
             )}
         </ul>
         
