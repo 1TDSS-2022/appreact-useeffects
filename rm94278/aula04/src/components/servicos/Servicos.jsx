@@ -6,10 +6,10 @@ import React from 'react';
 export default function Servicos() {
 
     const servicos = {
-        backgroundColor: "#ffb",
+        backgroundColor: "#AAA",
         height: "85vh",
         textAlign: "center",
-        color: "orange"
+        color: "#OMGGG"
     }
 
   return( 
