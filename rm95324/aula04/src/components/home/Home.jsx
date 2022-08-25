@@ -1,27 +1,34 @@
 import React from 'react'
-import {Switch, Link, Route} from 'react-router'
-import Api from "../api/Api"
 
 export default function Home(){
     
+    const home = {
+        backgroundColor: '#ffb',
+        height: '85vh',
+        textAlign: 'center',
+        color: 'orange'
+    }
+
     return(
-        <div>
-            <header>
+        <div style={home}>
+            <h1>Página principal</h1>
+            <p>Exemplo da página principal do projeto</p>
+            {/* <header>
                 <Link to="/">Home</Link>
                 <Link to="/api">API</Link>
-            </header>
+            </header> */}
 
         {/* Area de Navegação */}
-            <Switch>
+            {/* <Switch>
                 <Route exact path="/">
                     <Home />
                 </Route>
                 <Route path="/Api">
                     <Api />
                 </Route>
-            </Switch>
-        {/* Area de Navegação */}
-
+            </Switch> */}
         </div>
+
     )
+    
 }

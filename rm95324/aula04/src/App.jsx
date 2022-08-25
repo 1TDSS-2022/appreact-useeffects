@@ -1,14 +1,13 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Api from './components/api/Api'
-import {BrowserRouter as Router} from 'react-router-dom'
+import Menu from './components/menu/Menu'
+import MainRoutes from './routes/MainRoutes'
 
 export default function App(){
     return(
-        <div>
-            <h1>ESTUDO SOBRE USE-EFFECTS</h1>
-            <Api/>
-        </div>
+        <>
+            <Menu/>
+            <MainRoutes/>            
+        </>
     )
 }
 
