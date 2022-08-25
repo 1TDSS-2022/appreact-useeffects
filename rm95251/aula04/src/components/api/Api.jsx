@@ -2,24 +2,7 @@ import React from "react"
 import { useEffect, useState } from "react"
 
 export default function Api(){
-
-    const objeto = [{
-        nome : "Nanne",
-        id : 121
-    }
-    ,
-    {
-        nome : "Julia",
-        id : 122
-    }
-    ,
-    {
-        nome : "Roberto",
-        id : 100 
-    }
-]
-
-    
+  
 
     const [repositorios, setRepositorios] = useState([])
 
