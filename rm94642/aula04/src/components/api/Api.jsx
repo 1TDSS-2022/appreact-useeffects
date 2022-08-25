@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 
 export default function Api(){
 
+
     const [repositorios, setRepositorios] = useState([])
 
 
@@ -23,8 +24,13 @@ export default function Api(){
             <h2>Lista de Usuarios do GitHUB</h2>
             {/*<button onClick={()=>setRepositorios(["Ale", "Ronqui"])}>Alterar</button>*/}
             <ul>
-                {repositorios.map((obj, i)=>
-                <li key={i}>{obj.login}</li>
+                {repositorios.map((obj)=>
+                <li key={obj.id}>
+                    <figure>
+                        <img src={obj.avatar_url} alt="Avatar" style={{width:'200px'}} />
+                        <figcaption> <a href={obj.html_url}>{obj.login}</a></figcaption>
+                    </figure>
+                </li>
                 )}
             </ul>
         </div>

@@ -1,12 +1,13 @@
 import React from 'react'
-import Api from './components/api/Api'
+import Menu from './components/menu/Menu'
+import MainRoutes from './components/routes/MainRoutes'
 
 
 export default function App() {
     return(
-        <div>
-            <h1>Estudo sobre use-effects</h1>
-            <Api/>
-        </div>
+        <>
+        <Menu/>
+           <MainRoutes/>
+        </>
     )
 } 
