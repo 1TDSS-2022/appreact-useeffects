@@ -36,8 +36,17 @@ export default function Api(){
             <h2>Lista de Usuário do GitHUB</h2>
             {/* <button onClick={()=> setRepositorios(["Alê","Ronqui"])}>ALTERAR</button> */}
             <ul>
-                {repositorios.map((obj,i)=>
-                    <li key={i}>{obj.login}</li>
+                {repositorios.map((obj,i)=> {
+                   return (
+                            <>
+                            <li key={i}>{obj.login}</li>
+                                <figure>
+                                    <img style={{width: '200px'}} src={obj.avatar_url} alt="" />
+                                 <figcaption><a style={{color: "white"}} href={obj.html_url}>{obj.login}</a></figcaption>
+                                </figure>
+                            </>
+                        )
+                    }
                 )}
             </ul>
         </div>
