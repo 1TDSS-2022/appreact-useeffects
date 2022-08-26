@@ -78,7 +78,7 @@
                       "id":2,
                       "produto":"VESTIDO BUBUSA",
                       "preco":100.00,
-                      "image":"https://cdn.shopify.com/s/files/1/0367/4767/3731/products/vestido-sodre-azul-p-200000347-657_1024x1024.jpg?v=1631648731"
+                      "image":"https://cuplovershop.cdn.plataformaneo.com.br/produto/multifotos/hd/614190253_VTM146-1_614190253.jpg"
                    },
                    {
                       "id":3,
@@ -112,63 +112,63 @@
                       "id":7,
                       "produto":"ANEL PANDORA",
                       "preco":199.00,
-                      "image":"https://pandorajoias.vtexassets.com/arquivos/ids/187194-800-auto?v=637702584124370000&width=800&height=auto&aspect=true"
+                      "image":"https://lojavivara.vtexassets.com/arquivos/ids/166750/Anel-Life-Topazio-m5190007_set.jpg?v=637866855474270000"
                    },
                    {
                       "id":8,
                       "produto":"COLAR VIVARA",
                       "preco":329.00,
-                      "image":"https://pandorajoias.vtexassets.com/arquivos/ids/187194-800-auto?v=637702584124370000&width=800&height=auto&aspect=true"
+                      "image":"https://lojavivara.vtexassets.com/arquivos/ids/210191/Colar-Prata-Perola-e-Topazios-m5720433_set.jpg?v=637867854705000000"
                    },
                    {
                       "id":9,
                       "produto":"COLAR TIFFANI",
                       "preco":329.00,
-                      "image":"https://static.iguatemi365.com/media/catalog/product/cache/d4c329cee11a67e910ae99bce94f989d/3/7/37094692_1_2__1.jpg"
+                      "image":"https://lojavivara.vtexassets.com/arquivos/ids/279748/Colar-Life-Snow-Redondo-Prata-Rosa-m5730065_set.jpg?v=637884166749830000"
                    }
                 ]
              }
           },
-          "infatil":{
+          "infantil":{
              "categoria":{
                 "camiseta":[
                    {
                       "id":11,
-                      "produto":"CAMISETA INFATIL BOB ESPONJA",
+                      "produto":"CAMISETA BOB ESPONJA",
                       "preco":69.90,
-                      "image":"https://http2.mlstatic.com/D_NQ_NP_673727-MLB48767214308_012022-O.webp"
+                      "image":"https://cea.vtexassets.com/arquivos/ids/53059364-1600-auto?v=637794099506000000&width=1600&height=auto&aspect=true"
                    },
                    {
                       "id":22,
-                      "produto":"CAMISETA INFATIL DO BATMAN",
+                      "produto":"CAMISETA DO BATMAN",
                       "preco":90.99,
-                      "image":"https://images.tcdn.com.br/img/img_prod/744201/camiseta_infantil_menino_batmam_fakini_647_1_20200824091647.jpg"
+                      "image":"https://cea.vtexassets.com/arquivos/ids/50973799-1600-auto?v=637710440058300000&width=1600&height=auto&aspect=true"
                    },
                    {
                       "id":34,
                       "produto":"REGATA DO BEN 10",
                       "preco":60.90,
-                      "image":"https://a-static.mlcdn.com.br/800x560/fantasia-ben-10-regata-pop-sulamericana-fantasias/magazineluiza/182657200/4717e4f5fdecfe809bd9b7aa916a54d2.jpg"
+                      "image":"https://img.elo7.com.br/product/main/2336E0E/camiseta-infantil-t-anime-ben-10-desenhos.jpg"
                    }
                 ],
                 "tenis":[
                    {
                       "id":41,
-                      "produto":"TENIS INFATIL SPIDER-MAN",
+                      "produto":"TENIS SPIDER-MAN",
                       "preco":199.00,
                       "image":"https://cea.vtexassets.com/arquivos/ids/15913045-800-auto?v=637384607863330000&width=800&height=auto&aspect=true"
                    },
                    {
                       "id":58,
-                      "produto":"TENIS INFATIL BASICO PRETO ",
+                      "produto":"TENIS BASICO PRETO ",
                       "preco":329.00,
                       "image":"https://static.zattini.com.br/produtos/tenis-infantil-kurz-basico-masculino/06/AN3-0344-006/AN3-0344-006_zoom1.jpg?ts=1618285493&ims=544x"
                    },
                    {
                       "id":56,
-                      "produto":"TENIS INFATIL VERMELHO",
+                      "produto":"TENIS VERMELHO",
                       "preco":129.00,
-                      "image":"https://www.xuaxua.com.br/media/catalog/product/cache/1/image/805x690/9df78eab33525d08d6e5fb8d27136e95/t/e/tenis-infantil-feminino-xua-xua-frente-119009005.jpg"
+                      "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cc4d9ab691c54135ab8eaed70169859d_9366/Tenis_adidas_x_LEGO(r)_Sport_Pro_Vermelho_GZ2409_01_standard.jpg"
                    }
                 ],
                 "mochilas":[
@@ -176,19 +176,19 @@
                       "id":72,
                       "produto":"MOCHILA CHIQUE",
                       "preco":899.00,
-                      "image":""
+                      "image":"https://www.novobebe.com.br/arquivos/ids/191752-1000-1000/mochila-kids-leao-01.jpg?v=637514278809870000"
                    },
                    {
                       "id":81,
                       "produto":"MOCHILA ADIDAS ",
                       "preco":329.00,
-                      "image":""
+                      "image":"https://magicfeet.vteximg.com.br/arquivos/ids/184980-1000-1000/Mochila-Nike-JDI-Infantil-Preto.jpg?v=637763202936300000"
                    },
                    {
                       "id":97,
                       "produto":"MOCHILA NIKE ASICS ",
                       "preco":329.00,
-                      "image":""
+                      "image":"https://imgcentauro-a.akamaihd.net/900x900/M0PQ4N02/mochila-adidas-x-marvel-miles-morales-infantil-img.jpg"
                    }
                 ]
              }

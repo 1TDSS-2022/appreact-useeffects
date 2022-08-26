@@ -14,8 +14,7 @@ const Home = () => {
 
     setImagens(data);
   };
-  
-  
+    
   return (
     <div>
       <Carousel autoPlay infiniteLoop showThumbs={false}>
