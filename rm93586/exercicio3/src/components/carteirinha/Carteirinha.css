@@ -1,0 +1,32 @@
+img {
+    width: 100px;
+}
+
+.carteirinha {
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.nome {
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.matricula {
+    margin-left: 10px;
+}
+
+.curso {
+    margin-left: 10px;
+}
+
+.turma {
+    margin-left: 10px;
+}
