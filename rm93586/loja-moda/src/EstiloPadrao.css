@@ -1,6 +1,13 @@
-.pagina{
+body{
     background-color: #EC5858;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 ul{
     font-family: Helvetica;
     justify-content: center;
@@ -12,11 +19,13 @@ ul{
 li{
     list-style: none;
     margin: 1.5%;
+    white-space: nowrap;
 }
 
 a {
     color: white;
     text-decoration: none;
+    
 }
 
 nav a:hover{
@@ -32,6 +41,24 @@ nav li:hover:after {
     right: 50%;
 }
 
+.menu-cliente {
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 2.5%;   
+}
+  
+.menu-cliente img {
+    width: 30px;
+    height: 26px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.cabecalho_botao{
+    cursor: pointer;
+}
+
 
 footer {
     font-family: Helvetica;
@@ -42,3 +69,4 @@ footer {
     color: white;
 
 }
+

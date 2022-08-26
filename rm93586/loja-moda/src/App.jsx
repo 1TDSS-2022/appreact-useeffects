@@ -10,7 +10,7 @@ import MainRoutes from "./routes/MainRoutes"
 
 export default function App() {
     return (
-        <div class="pagina">
+        <div>
         <Menu/>
         <MainRoutes/>
         <Rodape/>

@@ -10,8 +10,10 @@
   
   .moda-masculina-conteudo {
     margin-bottom: 5rem;
-    color: #808080;
-    font-size: 0.9rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+    font-size: 1.2rem;
   }
   
   .lista {

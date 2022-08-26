@@ -2,11 +2,11 @@ import React from "react";
 
 import ListaDeRoupa from '../listaDeRoupa/ListaDeRoupa'
 
-import Foto1 from './imgModa/1.jpg'
-import Foto2 from './imgModa/2.jpg'
-import Foto3 from './imgModa/3.jpg'
-import Foto4 from './imgModa/4.jpg'
-import Foto5 from './imgModa/5.jpg'
+import Foto1 from './imgModa/1.jpg?auto=compress'
+import Foto2 from './imgModa/2.jpg?auto=compress'
+import Foto3 from './imgModa/3.jpg?auto=compress'
+import Foto4 from './imgModa/4.jpg?auto=compress'
+import Foto5 from './imgModa/5.jpg?auto=compress'
 
 
 import './ModaMasculina.css'
@@ -23,8 +23,13 @@ export default function ModaMaculina() {
         <>
         <section class="moda-masculina">
             <h2>Seleção Masculina</h2>
-            <p class="moda-masculina-conteudo">Lorem ipsum dolor sit amet consectetur. <br/>
-                Lorem, ipsum dolor.</p>
+            <p class="moda-masculina-conteudo">Usar tons neutros é uma dica clássica de como se vestir bem no inverno.<br/> Mas é importante destacar que se a sua profissão tiver um dress code mais informal, você pode sim adicionar cor e estampas no seu look.
+
+As principais cores neutras que são curingas para a estação mais fria do ano são: preto, branco, creme, marrom, cinza e azul marinho.
+
+Essas cores podem estar em calças, blusas, jaquetas, acessórios, etc.
+
+Se você não curte muito só roupas escuras, a dica é brincar com as tonalidades de alguns tons como cinza e marrom.</p>
             <div class="lista">
             <ListaDeRoupa roupasProps={foto} nomeProps={roupa} precoProps={preco}/>
             </div>
