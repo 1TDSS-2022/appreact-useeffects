@@ -1,5 +1,6 @@
 import React from "react"
 import Produto from "../components/Produto/Produto";
+import './Pages.css'
 
 export default function Masculino() {
   return(
