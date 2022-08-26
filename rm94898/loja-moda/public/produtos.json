@@ -1,0 +1,216 @@
+[{
+    "Genero": {
+        "Masculino": {
+            "Categoria": {
+                "Sapatenis": [{
+                        "id": 1,
+                        "produto": "SAPATENIS CAVALEIRA",
+                        "preco": 210.00,
+                        "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(95)/cnsonlin/catalog/2022-produtos/inverno-domenice/tenis-casual-masculino-cns-6021-preto-21840-5.JPG"
+                    },
+                    {
+                        "id": 2,
+                        "produto": "SAPATENIS ADIDAS",
+                        "preco": 290.00,
+                        "image": "https://m.media-amazon.com/images/I/71me0q90qXL._AC_SX500_.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "produto": "SAPATENIS NIKE",
+                        "preco": 270.00,
+                        "image": "https://imgcentauro-a.akamaihd.net/900x900/962422WLA1/tenis-reserva-rsv008c-masculino-img.jpg"
+                    }
+
+
+                ],
+
+                "Tenis": [{
+                        "id": 4,
+                        "produto": "TENIS ESPORTIVO NIKE",
+                        "preco": 199.00,
+                        "image": "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-11-feminino/26/HZM-5209-026/HZM-5209-026_zoom1.jpg?ts=1630603791&ims=544x"
+                    },
+                    {
+                        "id": 5,
+                        "produto": "TENIS ESPORTIVO DRAGON ADIDAS ",
+                        "preco": 329.00,
+                        "image": "https://imgcentauro-a.akamaihd.net/900x900/96442202A1/tenis-adidas-run-60s-2-0-masculino-img.jpg"
+
+                    },
+                    {
+                        "id": 6,
+                        "produto": "TENIS ESPORTIVO ASICS ",
+                        "preco": 329.00,
+                        "image": "https://imgcentauro-a.akamaihd.net/900x900/96919534A1/tenis-asics-gel-cumulus-24-se-masculino-img.jpg"
+
+                    }
+
+
+                ],
+                "Camisetas": [{
+                        "id": 7,
+                        "produto": "CAMISETA NIKE",
+                        "preco": 199.00,
+                        "image": "https://imgcentauro-a.akamaihd.net/900x900/95847062/camiseta-nike-dry-academy-21-top-masculina-img.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "produto": "CAMISETA ADIDAS ",
+                        "preco": 329.00,
+                        "image": "https://imgcentauro-a.akamaihd.net/900x900/M0GRD002/camisa-adidas-squadra-21-masculina-img.jpg"
+
+                    },
+                    {
+                        "id": 9,
+                        "produto": "CAMISETA ESPORTIVO ASICS ",
+                        "preco": 329.00,
+                        "image": "https://imgcentauro-a.akamaihd.net/900x900/M0F9XN03/camiseta-asics-triblend-masculino-img.jpg"
+
+                    }
+                ]
+            }
+        },
+        "Feminino": {
+            "Categoria": {
+                "Vestidos": [{
+                        "id": 1,
+                        "produto": "VESTIDO VERA VERAO",
+                        "preco": 110.00,
+                        "image": "https://cdn.shopify.com/s/files/1/0579/2494/4070/products/vestido_longo_estampado_verde_vazado_ver_o_650x.jpg?v=1626667364"
+                    },
+                    {
+                        "id": 2,
+                        "produto": "VESTIDO BUBUSA",
+                        "preco": 100.00,
+                        "image": "https://cdn.shopify.com/s/files/1/0367/4767/3731/products/vestido-sodre-azul-p-200000347-657_1024x1024.jpg?v=1631648731"
+                    },
+                    {
+                        "id": 3,
+                        "produto": "VESTIDO ANDROS",
+                        "preco": 670.00,
+                        "image": "https://cdn.shopify.com/s/files/1/0579/2494/4070/products/vestido_longo_floral_cintura_amarrar-1_650x.jpg?v=1626664238"
+                    }
+
+
+                ],
+
+                "Sandalias": [{
+                        "id": 4,
+                        "produto": "SANDALIAS VERA VERSA",
+                        "preco": 199.00,
+                        "image": "https://secure-static.alexandrebirman.com.br/medias/sys_master/birman/birman/ha9/h2b/h00/h00/10170693320734/3503900130237U-03-BASEIMAGE-Midres.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "produto": "SANTADALIA VER SAR",
+                        "preco": 329.00,
+                        "image": "https://secure-static.alexandrebirman.com.br/medias/sys_master/birman/birman/h36/h4d/h00/h00/10254037024798/3557800010004U-03-BASEIMAGE-Midres.jpg"
+
+                    },
+                    {
+                        "id": 6,
+                        "produto": "SANDALIAS SANDELIS",
+                        "preco": 329.00,
+                        "image": "https://secure-static.alexandrebirman.com.br/medias/sys_master/birman/birman/h35/hd5/h00/h00/10398829871134/0020780730001U-03-BASEIMAGE-Midres.jpg"
+
+                    }
+
+
+                ],
+                "Aneis": [{
+                        "id": 7,
+                        "produto": "ANEL PANDORA",
+                        "preco": 199.00,
+                        "image": "https://pandorajoias.vtexassets.com/arquivos/ids/187194-800-auto?v=637702584124370000&width=800&height=auto&aspect=true"
+                    },
+                    {
+                        "id": 8,
+                        "produto": "COLAR VIVARA",
+                        "preco": 329.00,
+                        "image": "https://pandorajoias.vtexassets.com/arquivos/ids/187194-800-auto?v=637702584124370000&width=800&height=auto&aspect=true"
+
+                    },
+                    {
+                        "id": 9,
+                        "produto": "COLAR TIFFANI",
+                        "preco": 329.00,
+                        "image": "https://static.iguatemi365.com/media/catalog/product/cache/d4c329cee11a67e910ae99bce94f989d/3/7/37094692_1_2__1.jpg"
+
+                    }
+                ]
+            }
+        },
+        "Infatil": {
+            "Categoria": {
+                "Camiseta": [{
+                        "id": 11,
+                        "produto": "CAMISETA INFATIL BOB ESPONJA",
+                        "preco": 69.90,
+                        "image": "https://http2.mlstatic.com/D_NQ_NP_673727-MLB48767214308_012022-O.webp"
+                    },
+                    {
+                        "id": 22,
+                        "produto": "CAMISETA INFATIL DO BATMAN",
+                        "preco": 90.99,
+                        "image": "https://images.tcdn.com.br/img/img_prod/744201/camiseta_infantil_menino_batmam_fakini_647_1_20200824091647.jpg"
+                    },
+                    {
+                        "id": 34,
+                        "produto": "REGATA DO BEN 10",
+                        "preco": 60.90,
+                        "image": "https://a-static.mlcdn.com.br/800x560/fantasia-ben-10-regata-pop-sulamericana-fantasias/magazineluiza/182657200/4717e4f5fdecfe809bd9b7aa916a54d2.jpg"
+                    }
+
+
+                ],
+
+                "Tenis": [{
+                        "id": 41,
+                        "produto": "TENIS INFATIL SPIDER-MAN",
+                        "preco": 199.00,
+                        "image": "https://cea.vtexassets.com/arquivos/ids/15913045-800-auto?v=637384607863330000&width=800&height=auto&aspect=true"
+                    },
+                    {
+                        "id": 58,
+                        "produto": "TENIS INFATIL BASICO PRETO ",
+                        "preco": 329.00,
+                        "image": "https://static.zattini.com.br/produtos/tenis-infantil-kurz-basico-masculino/06/AN3-0344-006/AN3-0344-006_zoom1.jpg?ts=1618285493&ims=544x"
+
+                    },
+                    {
+                        "id": 56,
+                        "produto": "TENIS INFATIL VERMELHO",
+                        "preco": 129.00,
+                        "image": "https://www.xuaxua.com.br/media/catalog/product/cache/1/image/805x690/9df78eab33525d08d6e5fb8d27136e95/t/e/tenis-infantil-feminino-xua-xua-frente-119009005.jpg"
+
+                    }
+
+
+                ],
+                "Mochilas": [{
+                        "id": 72,
+                        "produto": "MOCHILA CHIQUE",
+                        "preco": 899.00,
+                        "image": ""
+                    },
+                    {
+                        "id": 81,
+                        "produto": "MOCHILA ADIDAS ",
+                        "preco": 329.00,
+                        "image": ""
+
+                    },
+                    {
+                        "id": 97,
+                        "produto": "MOCHILA NIKE ASICS ",
+                        "preco": 329.00,
+                        "image": ""
+
+                    }
+                ]
+            }
+        }
+
+    }
+
+}]
