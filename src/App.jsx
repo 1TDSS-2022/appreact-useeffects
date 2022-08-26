@@ -16,21 +16,23 @@ export default function App(){
             <li><Link to="/">Home</Link></li>
             <li><Link to="/produtos">Produtos</Link></li>
             <li><Link to="/servicos">Servicos</Link></li>
+            <li><Link to="/api">Estudo sobre USE-EFFECTS</Link></li>
         </ul>
 
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/produtos' element={<Produtos/>}/>
                 <Route path='/servicos' element={<Servicos/>}/>
+                <Route path='/api' element={<Api/>}></Route>
             </Routes>
         </BrowserRouter>
     )
 }
 
-    // <div>
-    //     <h1>Estudo sobre USE-EFFECTS</h1>
-    //     <Api/>
-    // </div>
+/* <div>
+    <h1>Estudo sobre USE-EFFECTS</h1>
+    <Api/>
+</div> */
 
 // const App = () => {
 //     return(
