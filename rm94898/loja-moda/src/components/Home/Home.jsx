@@ -15,18 +15,14 @@ const Home = () => {
     setImagens(data);
   };
   
-  imagens.map(obj => {
-    console.log(obj)
-  })
-  
   
   return (
     <div>
-      <Carousel autoPlay infiniteLoop autoFocus showThumbs={false} dynamicHeight="40%">
+      <Carousel autoPlay infiniteLoop showThumbs={false}>
         {imagens.map((obj) => {
           return (
-            <div>
-              <img
+            <div key={obj.id}>
+              <img  style={{objectFit: 'cover', height: "600px"}}
                 alt=""
                 src={obj.image}
               />

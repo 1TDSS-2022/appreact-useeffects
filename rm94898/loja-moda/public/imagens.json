@@ -1,24 +1,27 @@
-
-    [
-        {
-            "image":"https://images.pexels.com/photos/1201613/pexels-photo-1201613.jpeg?cs=srgb&dl=pexels-the-lazy-artist-gallery-1201613.jpg&fm=jpg",
-            "legenda": "Vestidos de todos os jeitos"
-        },
-        {
-            "image":"https://images.pexels.com/photos/994234/pexels-photo-994234.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-994234.jpg&fm=jpg",
-            "legenda": "Acessórios especiais para você ou para dar de presente"
-        },
-        {
-            "image":"https://images.pexels.com/photos/5699007/pexels-photo-5699007.jpeg?cs=srgb&dl=pexels-rodnae-productions-5699007.jpg&fm=jpg",
-            "legenda": "Sapatos femininos"
-        },
-        {
-            "image":"https://images.pexels.com/photos/7562181/pexels-photo-7562181.jpeg?cs=srgb&dl=pexels-vazhnik-7562181.jpg&fm=jpg",
-            "legenda": "Moda masculina"
-        },
-        {
-            "image":"https://images.pexels.com/photos/8152378/pexels-photo-8152378.jpeg?cs=srgb&dl=pexels-rodnae-productions-8152378.jpg&fm=jpg",
-            "legenda": "Calças para todos os gostos"
-        }
-            
-]
+[
+    {
+       "id":1,
+       "image":"https://images.pexels.com/photos/1201613/pexels-photo-1201613.jpeg?cs=srgb&dl=pexels-the-lazy-artist-gallery-1201613.jpg&fm=jpg",
+       "legenda":"Vestidos de todos os jeitos"
+    },
+    {
+       "id":2,
+       "image":"https://images.pexels.com/photos/994234/pexels-photo-994234.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-994234.jpg&fm=jpg",
+       "legenda":"Acessórios especiais para você ou para dar de presente"
+    },
+    {
+       "id":3,
+       "image":"https://images.pexels.com/photos/5699007/pexels-photo-5699007.jpeg?cs=srgb&dl=pexels-rodnae-productions-5699007.jpg&fm=jpg",
+       "legenda":"Sapatos femininos"
+    },
+    {
+       "id":4,
+       "image":"https://images.pexels.com/photos/7562181/pexels-photo-7562181.jpeg?cs=srgb&dl=pexels-vazhnik-7562181.jpg&fm=jpg",
+       "legenda":"Moda masculina"
+    },
+    {
+       "id":5,
+       "image":"https://images.pexels.com/photos/8152378/pexels-photo-8152378.jpeg?cs=srgb&dl=pexels-rodnae-productions-8152378.jpg&fm=jpg",
+       "legenda":"Calças para todos os gostos"
+    }
+ ]

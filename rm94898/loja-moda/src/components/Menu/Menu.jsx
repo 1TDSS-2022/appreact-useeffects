@@ -27,9 +27,9 @@ const Menu =() => {
                 <nav>
                     <Ul> 
                         <Li ><Links to="/">Home</Links></Li>
-                        <Li ><Links to="/modaMascuLina">Moda Masculina</Links></Li>
-                        <Li ><Links to="/modaFeminina">Moda Feminina</Links></Li>
-                        <Li ><Links to="/modaInfatil">Moda Infatil</Links></Li>
+                        <Li ><Links to="/masculino">Moda Masculina</Links></Li>
+                        <Li ><Links to="/feminino">Moda Feminina</Links></Li>
+                        <Li ><Links to="/infantil">Moda Infatil</Links></Li>
                         <Li ><Links to="/sobre">Sobre</Links></Li>
                     </Ul>
                 </nav>
