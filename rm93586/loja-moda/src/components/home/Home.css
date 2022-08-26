@@ -1,0 +1,29 @@
+
+.cabecalho {
+    background: url(./imgPrincipal/mulher-de-rosa.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.cabecalho_conteudo {
+    position: absolute;
+    left: 75px;
+    top: 20%;
+    font-size: larger;
+    color: #232323;
+}
+
+.cabecalho_botao {
+    background-color: #232323;
+    color: #eee;
+    font-size: large; /* aumentar tamanho */
+    padding: 0.7rem 2rem; /* aumentar tamanho */
+    border: 2px solid #232323;
+    border-radius: 50px;
+} .cabecalho_botao:hover {
+    background-color: #FBBAB8;
+    color: #232323;
+}

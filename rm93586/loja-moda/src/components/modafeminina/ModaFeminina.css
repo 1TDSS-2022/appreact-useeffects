@@ -1,0 +1,78 @@
+.moda-feminina {
+    text-align: center;
+    background-color: #FBBAB8;
+    border-radius: 20px;
+    color: #232323;
+    padding: 10px;
+    
+
+  }
+  
+  .moda-feminina-conteudo {
+    margin-bottom: 5rem;
+    color: #808080;
+    font-size: 0.9rem;
+  }
+  
+  .lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  
+  .lista-item {
+    position: relative;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+  }
+  
+  .lista-item .button {
+    position: absolute;
+    left: 35%;
+    bottom: 12%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity 0.8s ease;
+    transition: opacity 0.8s ease;
+    font-size: 0.75rem;
+  }
+
+  
+  .lista-item .button a {
+    padding: 0.6rem 1.8rem;
+    text-align: center;
+    background-color: #232323;
+    color: #fff;
+    border: solid 2px #232323;
+    z-index: 1;
+    text-decoration: none;
+  }
+  
+  .lista-item .button a:hover {
+    background: #333;
+    color: #fff;
+  }
+  
+  .lista-item:hover .button {
+    opacity: 1;
+  }
+  
+ .imagem {
+    width: 350px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .produto {
+    margin-bottom: 0.1rem;
+    color: #232323;
+    font-size: 0.9rem;
+  }
+  
+  .preco {
+    margin-bottom: 1rem;
+    color: #808080;
+    font-size: 0.9rem;
+  }
+  
