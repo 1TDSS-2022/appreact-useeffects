@@ -12,7 +12,7 @@ const Menu =() => {
         font-weight: 500;
 
         &:hover{
-            color: #05058d;
+            color: #f59f0088;
         }
 
     `
@@ -29,7 +29,7 @@ const Menu =() => {
                         <Li ><Links to="/">Home</Links></Li>
                         <Li ><Links to="/masculino">Moda Masculina</Links></Li>
                         <Li ><Links to="/feminino">Moda Feminina</Links></Li>
-                        <Li ><Links to="/infantil">Moda Infatil</Links></Li>
+                        <Li ><Links to="/infantil">Moda Infantil</Links></Li>
                         <Li ><Links to="/sobre">Sobre</Links></Li>
                     </Ul>
                 </nav>

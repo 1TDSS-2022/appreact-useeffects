@@ -4,23 +4,35 @@ import styled from "styled-components"
 
 export const DivContainer = styled.div`
 
-    background-color: #5150559d;
-    width: 260px;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px 1px #0000006b;
-    transition: all .2s ease-in-out;
+    
+      width: 260px;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px 1px #0000006b;
+      transition: all .2s ease-in-out;
+
+      background: rgba(48, 48, 48, 0.58);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(2.7px);
+      -webkit-backdrop-filter: blur(2.7px);
+
 
     &:hover{
-      background: rgba(43, 43, 43, 0.644);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transform: scale(1.02);
-    cursor: pointer;
-    box-shadow: 1px 2px 13px #00000061;
-    cursor: pointer;
+      background: #30303053;
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(187, 190, 1, 0.5);
+      backdrop-filter: blur(6.8px);
+      -webkit-backdrop-filter: blur(6.8px);
+      border: 1px solid rgba(92, 92, 92, 0.3);
+
+     
+      border-radius: 16px;
+      transform: scale(1.02);
+      cursor: pointer;
+      
     }
 
   `
