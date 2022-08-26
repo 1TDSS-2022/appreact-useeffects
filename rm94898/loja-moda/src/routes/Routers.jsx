@@ -9,9 +9,9 @@ export default function Routers() {
     <>
     <Routes>
         <Route path='/' element={<Home/>}/> 
-        <Route path='/produtos' element={<Produtos/>}/>
+        {/* <Route path='/produtos' element={<Produtos/>}/>
         <Route path='/servicos' element={<Servicos/>}/>
-        <Route path='/api' element={<Api/>}/>
+        <Route path='/api' element={<Api/>}/> */}
     </Routes>
     </>
     
