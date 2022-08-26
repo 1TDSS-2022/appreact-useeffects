@@ -1,0 +1,41 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+h1{
+    padding-top: 5vh;
+}
+
+.corpo{
+    background-color: #d8c0bc;
+    text-align: center;
+    height: 85vh,
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3vh;
+}
+
+.nome{
+    margin-bottom: 3vh;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.rm{
+    font-size: 18px;
+    margin: 1vh 0 5vh;
+}

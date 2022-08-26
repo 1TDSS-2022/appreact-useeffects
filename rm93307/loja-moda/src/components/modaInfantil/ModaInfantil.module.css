@@ -1,0 +1,26 @@
+.mainInf{
+    background-color: #d8c0bc;;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 6vh;
+}
+
+.cards > div{
+    width: 33.33%;
+}
+
+.figcap{
+    margin-bottom: 3vh;
+}
+
+img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    box-shadow: 0 0 1em #513c45;
+}

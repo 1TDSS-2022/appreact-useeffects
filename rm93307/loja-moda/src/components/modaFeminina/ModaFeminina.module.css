@@ -1,0 +1,36 @@
+.mainFem{
+    background-color: #d8c0bc;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5vh;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 6vh;
+}
+
+.cards > div{
+    width: 33.33%;
+}
+
+figcaption{
+    font-weight: bold;
+}
+
+.figcap{
+    margin-bottom: 3vh;
+}
+
+img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    box-shadow: 0 0 1em #513c45;
+}

@@ -1,0 +1,42 @@
+.mainHome{
+    background-color: #d8c0bc;
+}
+
+h2{
+    text-align: center;
+    padding-top: 5vh;
+    text-shadow: 0.1em 0.1em 0.6em black;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+
+.cards > div{
+    width: 33.33%;
+}
+
+.pHome{
+    font-size: 16px;
+    text-align: center;
+    padding: 4vh 0 3vh 0;
+    font-size: 18px;
+}
+
+img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    box-shadow: 0 0 1em #513c45;
+}
+
+.figHome{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
