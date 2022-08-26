@@ -17,7 +17,7 @@ export default function Menu() {
                     <li><Link to="/sobre">Sobre</Link></li>
                 </ul>
             </nav>
-            <div class="menu-cliente">
+            <div className="menu-cliente">
                 <img src={lupa} alt="busca"/>
                 <img src={carrinho} alt="usuario"/>
                 <img src={usuario} alt="carrinho"/>
