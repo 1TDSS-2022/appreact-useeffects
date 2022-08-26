@@ -5,7 +5,7 @@ export default function Sobre() {
 
     return (
         <div>
-            <div class="box">
+            <div class="sobre">
                 <h1>Sobre</h1>
                 <hr />
                 <div>

@@ -1,4 +1,4 @@
-.box{
+.sobre{
     background-color: rgba(240, 248, 255, 0.295);
     padding: 50px;
     margin: 100px 200px;
@@ -9,7 +9,6 @@
     align-items: center;
 }
 
-.box div{
-    display: flex;
-    flex-wrap: nowrap;
+.sobre div{
+    text-align: center;
 }
