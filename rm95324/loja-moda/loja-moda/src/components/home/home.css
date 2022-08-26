@@ -1,0 +1,24 @@
+.imagem{
+    width: 400px;
+    height: 600px;
+    transition: ease 0.2s;
+}
+
+.imagem:hover{
+    margin-top: -2px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.521)
+}
+
+.box{
+    background-color: rgba(240, 248, 255, 0.295);
+    padding: 50px;
+    margin: 100px 200px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.box div{
+    display: flex;
+    justify-content:space-around;
+}
