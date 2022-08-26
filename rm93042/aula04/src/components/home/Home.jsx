@@ -1,33 +1,18 @@
-import React from "react";
-import {Switch,Link,Route} from "react-router-dom"
+import React from 'react'
 
-export default function Home(){
+export default function Home() {
     
-    
-    return(
-        <div>
-            <header>
-                <Link to="/">HOME</Link>
-                <Link to="/api">API</Link>
-                
-            </header>
-        
-        {/* Area de navegação */}
-            <Switch>
-                <Route exact path="/">
-                    <Home/>
-                </Route>
-                <Route exact path="/api">
-                    <Api/>
-                </Route>
-            </Switch>
+    const home = {
+        backgroundColor : '#ffb',
+        height : '85vh',
+        textAlign : 'center',
+        color : 'orange'
+    }
 
-        {/* Area de navegação */}
-
-
-
-
-
-        </div>
-    )
+  return (
+    <div style={home}>
+        <h1>Página principal</h1>
+        <p>Exemplo da página principal do projeto.</p>
+    </div>
+  )
 }
