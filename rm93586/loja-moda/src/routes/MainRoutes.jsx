@@ -7,6 +7,7 @@ import ModaMasculina from "../components/modamasculina/ModaMasculina";
 import ModaFeminina from "../components/modafeminina/ModaFeminina";
 import ModaInfantil from "../components/modainfantil/ModaInfantil";
 import Sobre from "../components/sobre/Sobre";
+import MinhaConta from "../components/minhaConta/MinhaConta";
 
 export default function MainRoutes(){
     return(
@@ -17,6 +18,7 @@ export default function MainRoutes(){
                 <Route path="/modafeminina" element={<ModaFeminina/>}/>
                 <Route path="/modainfantil" element={<ModaInfantil/>}/>
                 <Route path="/sobre" element={<Sobre/>}/>
+                <Route path="/minhaconta" element={<MinhaConta/>}/>
             </Routes>           
         </>
     )

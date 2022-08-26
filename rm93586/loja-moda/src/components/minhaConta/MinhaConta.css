@@ -1,0 +1,45 @@
+
+.minha-conta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FBBAB8;
+    border-radius: 20px;
+    color: #232323;
+    padding: 10px;
+    height: 30vh;
+    width: 50%;
+
+    position: relative;
+    right: 25%;
+    left: 25%;
+
+}
+
+.usuario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.senha {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+
+#email {
+    position: relative;
+    left: 5%;
+}
+#senha {
+    position: relative;
+    left: 5%;
+}
+
+button {
+    position: relative;
+    left: 5%;
+}

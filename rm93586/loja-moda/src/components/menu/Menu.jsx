@@ -19,8 +19,8 @@ export default function Menu() {
             </nav>
             <div className="menu-cliente">
                 <img src={lupa} alt="busca"/>
-                <img src={carrinho} alt="usuario"/>
-                <img src={usuario} alt="carrinho"/>
+                <img src={carrinho} alt="carrinho"/>
+                <Link to="/minhaconta"><img src={usuario} alt="minha conta"/></Link>
             </div>
         </header>
     )
