@@ -1,0 +1,37 @@
+
+nav{
+    background-color:#ec700b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color:#020202;
+}
+
+nav > h1{
+    font-size: 32px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 850;
+}
+
+nav > ul > li{
+    padding: 6px 12px;
+    list-style: none;
+    display: inline-block;
+}
+
+nav > ul > li{
+    cursor: pointer;
+}
+
+nav > ul > li > a{
+    color: #020202;
+    transition: all ease 0.1s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav > ul > li:hover > a{
+    color: #020202;
+}
