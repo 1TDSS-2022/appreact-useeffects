@@ -3,7 +3,7 @@ import React from "react";
 
 //Este componente gera a lista de roupas de todas as páginas
 
-var botao = "FAVORITAR"
+var botao = "ADICIONAR"
 
 
 export default function ListaDeRoupa(props){

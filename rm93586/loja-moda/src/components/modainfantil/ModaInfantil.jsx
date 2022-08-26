@@ -22,7 +22,7 @@ export default function ModaInfantil() {
 
         <>
         <section class="moda-infantil">
-            <h2>Great Selection</h2>
+            <h2>Seleção Infantil</h2>
             <p class="moda-infantil-conteudo">Lorem ipsum dolor sit amet consectetur. <br/>
                 Lorem, ipsum dolor.</p>
             <div class="lista">

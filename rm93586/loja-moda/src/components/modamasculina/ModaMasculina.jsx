@@ -22,7 +22,7 @@ export default function ModaMaculina() {
 
         <>
         <section class="moda-masculina">
-            <h2>Great Selection</h2>
+            <h2>Seleção Masculina</h2>
             <p class="moda-masculina-conteudo">Lorem ipsum dolor sit amet consectetur. <br/>
                 Lorem, ipsum dolor.</p>
             <div class="lista">
