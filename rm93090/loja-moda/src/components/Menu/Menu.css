@@ -1,0 +1,37 @@
+
+nav{
+    background-color: var(--cyan9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    color: var(--cyan12);
+}
+
+nav > h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav > ul > li{
+    cursor: pointer;
+}
+
+nav > ul > li > a{
+    color: var(--cyan5);
+    transition: all ease 0.1s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav > ul > li:hover > a{
+    color: var(--cyan12);
+}
